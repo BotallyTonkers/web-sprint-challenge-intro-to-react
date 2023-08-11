@@ -40,7 +40,8 @@ const DropdownCreator = (props) => {
             if(ch.name === name){
                 setCurrentCharacter(ch)
             }
-        })}
+        })
+    }
     }
 
     function generator (name,idx) {
@@ -61,4 +62,4 @@ const DropdownCreator = (props) => {
     )
 }
 
-export default DropdownCreator
+export default DropdownCreator;
